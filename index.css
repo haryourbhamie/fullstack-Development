@@ -1,0 +1,46 @@
+div{
+    background-color: rgb(81, 101, 138);
+    color: white;
+}
+
+#picker {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #4b0d0d;
+}
+
+
+.quote {
+    font-family: sans-serif;
+color: #310d0d;
+}
+
+.post{
+    background-color: rgb(206, 236, 216);
+}
+
+span#author{
+    text-transform: uppercase;
+}
+
+#skills ol li{
+    color: wheat;
+  
+}
+
+#skills ul li{
+    color: rgb(212, 185, 161);
+}
+#CV{
+    background-color: teal;  
+}
+h3 + p {
+    background: teal;
+    color: white;
+}
+
+    p[class]{
+        background: rgb(139, 102, 123);
+    }
+
+
+
