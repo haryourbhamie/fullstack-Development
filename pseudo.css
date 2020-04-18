@@ -17,6 +17,9 @@ p{
     color: rgb(26, 24, 24);
     width: 400px;
     margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    visibility: visible;
 }
 
 
