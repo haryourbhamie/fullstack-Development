@@ -1,0 +1,54 @@
+#websiteLogo{
+    position: relative;
+    border: 3px solid black;
+}
+
+a:hover{
+    background: black;
+    color: white;
+}
+a:visited{
+    color: red;
+    background: black;
+}
+body{
+    background: skyblue;
+}
+#wrapper{
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    height: 1000px;
+}
+
+header{
+    padding: 0px 0px 10px 0px;
+}
+
+#horzNav :hover{
+    display: block;
+    background: black;
+    color: white;
+}
+
+#para-1{
+    word-spacing: 5px;
+}
+#para-1:after{
+    content: "@@@@@";
+}
+
+#para-2{
+    letter-spacing: 10px;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+}
+
+ol{
+    list-style-type: lower-roman;
+    list-style-position: inherit;
+}
+
