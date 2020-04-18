@@ -1,3 +1,25 @@
+
+p:first-line{
+    text-transform: uppercase;
+}
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: chocolate;
+}
+p:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+p{
+    background: rgb(250, 247, 247);
+    color: rgb(26, 24, 24);
+    width: 400px;
+    margin: 0 auto;
+}
+
+
 #websiteLogo{
     position: relative;
     border: 3px solid black;
@@ -51,4 +73,17 @@ ol{
     list-style-type: lower-roman;
     list-style-position: inherit;
 }
+
+ol{
+    background: blue;
+    color: black;
+    width: 360px;
+    margin: 100px auto;
+
+}
+li:nth-child(2n){
+    background-color: rgb(195, 192, 192);
+}
+
+
 
